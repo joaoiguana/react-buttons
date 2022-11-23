@@ -10,7 +10,15 @@ const menu = [
   // Other menu items
   {
     name: "Settings",
-    icon: ""
+    icon: "settings"
+  },
+  {
+    name: "Share",
+    icon: "share"
+  },
+  {
+    name: "Log Out",
+    icon: "logout"
   }
 ]
 
