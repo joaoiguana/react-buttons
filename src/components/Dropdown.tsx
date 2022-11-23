@@ -1,12 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import './Dropdown.css';
+import 'material-symbols';
 
 const menu = [
   {
     name: "Profile",
     icon: "account_circle"
-  }
+  },
   // Other menu items
+  {
+    name: "Settings",
+    icon: ""
+  }
 ]
 
 const MenuButton = ({ icon, name }) => (
